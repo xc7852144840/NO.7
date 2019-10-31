@@ -1,0 +1,102 @@
+	    body,input,button{
+	    	font-family: 微軟正黑體;
+	    }
+		.ind1{
+	  		z-index:1;
+		}
+		.ind2{
+	  		z-index:2;
+			}
+		.ind3{
+		 	z-index:3;
+		}
+		.hover {
+			position:relative;
+
+			height: 308px; width: 506px;
+		}
+		.hover img {
+	  		position:absolute;
+			height: 308px;
+	 		width: 506px;
+	  		-webkit-transition: opacity 1s ease-in-out;
+	  		-moz-transition: opacity 1s ease-in-out;
+	 		-o-transition: opacity 1s ease-in-out;
+	  		transition: opacity 1s ease-in-out;
+		}
+		.hover img:nth-of-type(2):hover{
+	  		opacity:0;
+		}
+	    td{
+	    	height: 60px;
+	    	width: 100px;
+	    }
+	    .p{
+	    	position:absolute;
+	    	top:3.5cm;
+	    	left:11cm;
+	    }
+	    .q{
+	    	position:absolute;
+	    	top:17cm;
+	    	right:0cm;
+
+	    }
+	    table td {
+	  		border:2px solid  #888888;
+		}
+		.button {
+	    	background-color:  darkslateblue;
+		    border: none;
+		    color: white;
+		    padding: 20px 20px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		}
+	  	.button:hover{
+	        outline: midnightblue solid;
+	    }
+		.button2 {
+		    display: inline-block;
+		    cursor: pointer;
+		    text-align: center;
+			text-decoration: none;
+		    height:10px
+		    outline: none;
+		    color: white;
+		    background-color:  #888888;
+		    border: none;
+		    border-radius: 15px;
+		    box-shadow: 0 9px #999;
+		    cursor: -webkit-grab; cursor: grab;
+		}
+	    .button2:hover{
+	    	background-color: #444444;
+	    }
+	    .button2:active{
+	        background-color: #444444;
+	        box-shadow: 0 5px #666666;
+	        transform: translateY(4px);
+	    }
+	    .pic{width:100%; height:100%;overflow:hidden;}
+		.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+		.pic img:hover{transform:scale(1.2,1.2);}
+		.scr1,.scr2,.scr3,.scr4,.scr5,.scr6,.scr7,.scr8{
+	        position: fixed;
+	        top:29.5%;
+	        left:35.3%;
+	        background-color: white;
+	        width: 504px;
+	        height:303px;
+	        color: white;
+	        border:10px groove #888888;
+	        display: none;
+	        background-image: url(../Images/index/Blackboard.jpg); 
+	        background-size:cover;
+	        z-index:3;
+	    }        
+	    		 .scr1>.close,.scr2>.close,.scr3>.close,.scr4>.close,.scr5>.close,.scr6>.close,.scr7>.close,.scr8>.close{
+	        position:absolute;top: 1px;right: 2px;cursor:pointer;
+	     }        

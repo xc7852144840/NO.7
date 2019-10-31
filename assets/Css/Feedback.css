@@ -1,0 +1,107 @@
+fieldset.a
+		{
+    		padding:10px;
+    		width:340px;
+   			margin-bottom:10px;
+    		background:#EEE;
+    		border-radius: 8px;
+    		box-shadow:3px 3px 10px #666;
+   
+		}
+		fieldset.b
+		{
+    		padding:10px;
+    		width:420px;
+   			margin-bottom:10px;
+    		background:#EEE;
+    		border-radius: 8px;
+    		box-shadow:3px 3px 10px #666;
+
+		}
+		legend
+		{
+    		padding:5px 10px;
+    		background-color:#4F709F;
+    		color:#FFF;
+    		border-radius:5px;
+    		box-shadow:2px 2px 4px #666;
+    	}
+    	input.c
+  		{ 
+			background-color: #4F709F;
+			border: 1.3px solid #6699FF;
+			height: 30px;
+			border-radius: 6px;
+			font-size:18px;
+		    font-weight:bold;
+		    font-family: 微軟正黑體;
+			position: relative;
+			left: 17.6cm;
+			top:1cm;
+			bottom: 6.3cm;
+			color: white;
+			width:100px;
+			height:35px;
+  		}
+  		.c:hover
+  		{
+  			color: black;
+  			background-color: white;
+
+  		}
+		.d {
+			position:relative;
+			left: -1cm;
+    		bottom: 0cm;
+			font-family:微軟正黑體;
+			font-weight:bold;
+			font-size:40px;
+			text-align:center;	
+			
+		}
+		.button2 {
+        	display: inline-block;
+	        font-family:微軟正黑體;
+	        cursor: pointer;
+	       	text-align: center; 
+	        text-decoration: none;
+	        height:10px
+	    	outline: none;
+	    	color: white;
+	    	background-color:  #888888;
+	    	border: none;
+	    	border-radius: 15px;
+	        box-shadow: 0 9px #999;
+	        cursor: -webkit-grab; cursor: grab;
+   		}
+   		.button2:hover {
+   			background-color: #444444}
+   		.button2:active {
+	        background-color: #444444;
+	        box-shadow: 0 5px #666;
+	        transform: translateY(4px);
+   		}
+		.flex-container {
+	  		display: flex;
+	  		justify-content:space-around ;
+		}
+		.button3 {
+	        display: inline-block;
+	        font-family:微軟正黑體;
+	        cursor: pointer;
+	       	text-align: center; 
+	        text-decoration: none;
+	    	outline: none;
+	    	color: white;
+	    	background-color:  #444444;
+	    	border: none;
+	    	border-radius: 40%;
+	        cursor: -webkit-grab; cursor: grab;
+  		 }
+   		.button3:hover {
+   			background-color: #444444}
+   		.button3:active {
+	        background-color: #444444;
+	        box-shadow: 0 5px #666;
+	        transform: translateY(4px);
+   		}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>回饋表單</title>
+		<style type="text/css">
+		<!--
+	    	@import url("../assets/Css/Feedback.css");
+	    -->
+		</style>
+	</head>
+	<body background="../assets/Images/b.jpg" style=" background-repeat:no-repeat;background-size:100% 100%;background-attachment: fixed;" >
+    	<a href="https://www1.cycu.edu.tw/" target="_blank"><img src="../assets/Images/CY.png" height="104" width="357" title="前往中原大學首頁"></a><br>
+    	<div  style="position:absolute; right:540px; top: 20px; ">
+      		<button class="button2" style="width:200px;height:50px;font-size:24px"value="Video" onclick="location.href='Video.html'">影片介紹</button> 
+    	</div>
+        <div  style="position:absolute; right:330px; top: 20px; ">
+      		<button class="button2" style="width:200px;height:50px;font-size:24px"value="About" onclick="location.href='About.html'">關於我們</button> 
+    	</div>
+        <div  style="position:absolute; right:120px; top: 20px; ">
+    		<button class="button2" style="width:200px;height:50px;font-size:24px"value="Feedback" onclick="location.href='Feedback.html'">回饋表單</button> 
+    	</div>
+		<div class="d"><b>來  點  回  饋  吧</b></div>
+		<hr color="#EEFFBB" width="30%" size="6" class="d">
+		<div class="flex-container">
+		<span></span>
+		<span></span>
+		<fieldset class="a">
+		<legend align="center"><b><font face="微軟正黑體" size="5">個人資料</font></b></legend>
+		<font face="微軟正黑體">
+		<ol>
+			<br><li>
+					姓名：<input type="text" name="姓名" size="10" />
+			</li>
+			<br>
+			<li>
+					系級：<input type="text" name="系級" size="10" />
+			</li>
+			<br>
+			<li>
+					學號：<input type="text" name="學號" size="10" />
+			</li>
+			<br>
+			<li>
+					性別：
+					<input type="radio" name="性別" value="男" checked/ >男生
+					<input type="radio" name="性別" value="女" />女生
+			</li>
+			<br>
+			<li>
+					E-mail：<input type="text" name="電子信箱" size="25" />
+			</li>
+		</ol>
+		</font>
+		</fieldset>
+
+		<fieldset class="b">
+		<legend align="center" ><b><font face="微軟正黑體" size="5">說點什麼</font></b></legend>
+		<font face="微軟正黑體">
+		<ol>
+			<li>
+					想對我們說：<br><textarea name="想對我們說" cols="45" rows="6" wrap="hard"></textarea>
+			</li>
+			<br>
+			<li>
+					問題與建議：<br><textarea name="問題與建議" cols="45" rows="6" wrap="hard"></textarea>
+			</li>
+		</ol>
+		</font>
+		</fieldset>
+		<span></span>
+		<span></span>  
+	    </div>
+		<input type="submit" value="送出" class="c" />
+		<div  style="position:absolute; right:120px; top: 600px; ">
+      	<button class="button3" style="width:120px;height:50px;font-size:24px"value="HOME" onclick="location.href='index.html'">HOME</button> 
+    	</div>
+	</body>
+</html>
